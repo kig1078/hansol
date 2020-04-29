@@ -1,0 +1,118 @@
+@charset 'utf-8';
+
+/* sub banner */
+section{
+    margin-bottom:135px;
+}
+div.sub_banner{
+    margin-bottom:75px;
+}
+div.sub_banner>div:first-child{
+    height:20px;
+    background:url('images/ptn.gif');
+    margin-bottom:10px;
+    text-indent:-3000px;
+}
+div.sub_banner>div:last-child{
+    height:144px;
+}
+div.sub_banner>div:last-child>img{
+    width:100%;
+}
+    /* sub nav */
+aside{
+    width:190px;
+}
+nav.sub_nav>h3{
+    font-size:24px;
+    text-align:center;
+    padding-bottom:10px;
+    border-bottom:2px solid #00a651;
+}
+nav.sub_nav li{
+    font-size:16px;
+    font-weight:bold;
+    background:#f0f0f0;
+    padding:15px 0;
+    text-indent:15px;
+    border-bottom:1px solid rgba(91,99,102,0.5);
+    position:relative;
+    transition:0.3s;
+}
+nav.sub_nav>ul>li:hover{
+    background:#cccccc;
+}
+nav.sub_nav>ul>li:hover::after{
+    content:'▼';
+    font-weight:bolder;
+    color:#00a651;
+    position: absolute;
+    top:15px;
+    right:5px;
+}
+article{
+    width:990px;
+}
+article>.company_tit{
+    border-bottom:2px solid #007dc6;
+    margin-bottom:80px;
+}
+article>.company_tit>h3{
+    font-size:24px;
+    text-align:center;
+    padding-bottom:10px;
+}
+article>.company_tit>p{
+    font-size:12px;
+    color:#5b6366;
+    padding-top:10px;
+}
+article>.company_tit>p>span{
+    font-weight:900;
+}
+        /* content base */
+.content_base>h4{
+    font-size:26px;
+    color:#007dc6;
+    margin-bottom:45px;
+}
+.content_base>ul.content_img{
+    margin-bottom:65px;
+}
+.content_img>li img{
+    filter:grayscale(100%);
+    transition:0.5s;
+}
+.content_img>li img:hover{
+    filter:none;
+}
+.content_base>ul>li{
+    height:342px;
+}
+.content_base>ul>li:nth-child(1){
+    width:495px;
+}
+.content_base>ul>li:nth-child(2){
+    width:247px;
+}
+.content_base>ul>li:nth-child(3){
+    width:248px;
+}
+.content_base>ul>li:nth-child(3)>div{
+    height:171px;
+}
+.content_img>li img{
+    width:100%;
+}
+.content_base>div.content_txt{
+    margin-bottom:40px;
+}
+.content_base>div.content_txt>h5{
+    font-size:18px;
+    margin-bottom:20px;
+}
+.content_base>div.content_txt>p{
+    font-size:14px;
+    color:#5b6366;
+    margin-bottom:10px;
+}

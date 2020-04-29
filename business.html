@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한솔제지</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <!-- <link rel="stylesheet" href="css/company.css"> -->
+    <style>
+        /* sub banner */
+    section{
+        margin-bottom:135px;
+    }
+    div.sub_banner{
+        margin-bottom:75px;
+    }
+    div.sub_banner>div:first-child{
+        height:20px;
+        background:url('images/ptn.gif');
+        margin-bottom:10px;
+        text-indent:-3000px;
+    }
+    div.sub_banner>div:last-child{
+        height:144px;
+    }
+    div.sub_banner>div:last-child>img{
+        width:100%;
+    }
+        /* sub nav */
+    aside{
+        width:190px;
+    }
+    nav.sub_nav>h3{
+        font-size:24px;
+        text-align:center;
+        padding-bottom:10px;
+        border-bottom:2px solid #00a651;
+    }
+    nav.sub_nav li{
+        font-size:16px;
+        font-weight:bold;
+        background:#f0f0f0;
+        padding:15px 0;
+        text-indent:15px;
+        border-bottom:1px solid rgba(91,99,102,0.5);
+        position:relative;
+        transition:0.3s;
+    }
+    nav.sub_nav>ul>li:hover{
+        background:#cccccc;
+    }
+    nav.sub_nav>ul>li:hover::after{
+        content:'▼';
+        font-weight:bolder;
+        color:#00a651;
+        position: absolute;
+        top:15px;
+        right:5px;
+    }
+        /* business content */
+    article{
+        width:990px;
+    }
+    article>.company_tit{
+        border-bottom:2px solid #007dc6;
+        margin-bottom:80px;
+    }
+    article>.company_tit>h3{
+        font-size:24px;
+        text-align:center;
+        padding-bottom:10px;
+    }
+    article>.company_tit>p{
+        font-size:12px;
+        color:#5b6366;
+        padding-top:10px;
+    }
+    article>.company_tit>p>span{
+        font-weight:900;
+    }
+            /* content base */
+    .content_base h4{
+        font-size:26px;
+        color:#007dc6;
+        margin-bottom:45px;
+    }
+    .content_base>div.content_img{
+        margin-bottom:65px;
+    }
+    .content_img>img{
+        width:100%;
+        height:342px;
+        filter:grayscale(100%);
+        transition:0.5s;
+    }
+    .content_img>img:hover{
+        filter:none;
+    }
+    .content_base_top{
+        margin-bottom:50px;
+    }
+    .content_base_top>p{
+        font-size:14px;
+        color:#5b6366;
+        margin-bottom:10px;
+    }
+    .content_base>div.content_txt{
+        margin-bottom:40px;
+    }
+    .content_base>div.content_txt h5{
+        font-size:18px;
+        margin-bottom:20px;
+    }
+    .content_base>div.content_txt>div>.content_quick>a{
+        font-size:8px;
+        color:white;
+        text-align:center;
+        line-height:20px;
+        background:#007dc6;
+        width:80px;
+        height:20px;
+        border-radius:10px;
+    }
+    .content_base>div.content_txt>p{
+        font-size:14px;
+        color:#5b6366;
+        margin-bottom:10px;
+    }
+    </style>
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <div class="wrap">
+        <!-- header section -->
+        <header>
+            <div class="row oflow">
+                <div class="main_logo fleft">
+                    <a href="index.html">
+                        <div class="main_logo_top oflow">
+                            <div class="logo_point fleft">
+                                <span class="point blue_point"></span>
+                                <span class="point green_point"></span>
+                            </div>
+                            <div class="logo_txt fleft">
+                                <p>Hansol</p>
+                            </div>
+                        </div>
+                        <div class="main_logo_bottom">
+                            <p>한솔제지</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="glo_menu fright">
+                    <ul class="glo_menu_top">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#" class="sns sns01">Instargram</a></li>
+                        <li><a href="#" class="sns sns02">Facebook</a></li>
+                    </ul>
+                    <ul class="glo_menu_main">
+                        <li><a href="company.html">회사소개</a></li>
+                        <li><a href="business.html">사업영역</a></li>
+                        <li><a href="#">지속가능경영</a></li>
+                        <li><a href="#">투자정보</a></li>
+                        <li><a href="#">고객지원</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- company section -->
+        <section>
+            <div class="row sub_banner oflow">
+                <div>
+                    빗살무늬
+                </div>
+                <div>
+                    <img src="images/company_01.jpg" alt="company_01">
+                </div>
+            </div>
+            <div class="row sub_content oflow">
+                <aside class="fleft">
+                    <nav class="sub_nav">
+                        <h3>사업영역</h3>
+                        <ul>
+                            <li><a href="#">인쇄용지</a></li>
+                            <li><a href="#">패키징용지</a></li>
+                            <li><a href="#">특수지</a></li>
+                            <li><a href="#">감열지</a></li>
+                            <li><a href="#">R&D</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+                <article class="fright">
+                    <div class="company_tit oflow">
+                        <h3 class="fleft">인쇄용지</h3>
+                        <p class="fright">홈 > 사업영역 > <span>인쇄용지</span></p>
+                    </div>
+                    <div class="content_base">
+                        <div class="content_base_top">
+                            <p>인쇄용지는 펄프를 주원료로 하여 생산된 백상지/MFC(교과서, 단행본, 다이어리)와 아트지(고급 카다로그, 사보, 캘린더) 등의 제품으로 다양하게</p>
+                            <p>사용되고 있습니다.</p>
+                            <p>한솔제지 인쇄용지는 품질이 균일하고, 스티프니스 및 잉크건조성이 우수해 인쇄사의 생산성을 높여주고, 국내 유일의 4cycle/月 생산체제로 단납</p>
+                            <p>기 대응력을 한층 강화했으며, ‘클레임Zero, 100% 보상제’ 운영을 통해 고객사의 손실을 최소화하고 있습니다. 특히 재활용 원료에 대한 오랜 경험</p>
+                            <p>과 역량으로 친환경 재생용지 수요에 대응하고 있으며. FSC, 탄소인증 등 기타 환경 인증을 보유하고 있습니다.</p>
+                        </div>
+                        <div class="content_img">
+                            <img src="images/business_01.jpg" alt="business">
+                        </div>
+                        <div class="content_base_tit">
+                            <h4>주요제품 소개</h4>
+                        </div>
+                        <div class="content_txt">
+                            <div class="oflow">
+                                <h5 class="fleft">Hi-Q 밀레니엄아트</h5>
+                                <p class="content_quick fright"><a href="#">바로가기 ▶</a></p>
+                            </div>
+                            <p>인쇄작업성, 품질 균일성이 한단계 업그레이드 된 프리미엄 아트지로서 평활성 및 색상이 우수하여 인쇄 시 어떤 색상이든 선명하게 재현합니다.</p>
+                            <p>강도가 우수하여 인쇄 작업성이 뛰어나며, 타사 제품 대비 인쇄 시 발생하는 지분/픽킹이 적어 우수한 품질 재현성을 자랑합니다.</p>
+                        </div>
+                        <div class="content_txt">
+                            <div class="oflow">
+                                <h5 class="fleft">Hi-Q 듀오매트</h5>
+                                <p class="content_quick fright"><a href="#">바로가기 ▶</a></p>
+                            </div>
+                            <p>뛰어난 평활성과 탁월한 백감도의 고품격 매트지입니다. 고품격의 촉감과 균일한 표면 면성이 강점인 Hi-Q 듀오매트는 뛰어난 백감도와 함께 인</p>
+                            <p>쇄 광택 등의 효과로 최적의 인쇄효과를 얻을 수 있습니다.</p>
+                        </div>
+                        <div class="content_txt">
+                            <div class="oflow">
+                                <h5 class="fleft">Hi-Q 미스틱</h5>
+                                <p class="content_quick fright"><a href="#">바로가기 ▶</a></p>
+                            </div>
+                            <p>놀랍도록 가볍고 두꺼운 느낌을 주는 미스틱은 기존 매트지와는 차별화된 새로운 질감의 고급 아트지입니다.깔끔하고 선명한 인쇄품질로 색 발현</p>
+                            <p>성이 뛰어나 다양한 디자인과 컬러풀한 사진들이 리얼하게 잘 표현됩니다.</p>
+                        </div>
+                        <div class="content_txt">
+                            <div class="oflow">
+                                <h5 class="fleft">화인코트</h5>    
+                                <p class="content_quick fright"><a href="#">바로가기 ▶</a></p>
+                            </div>
+                            <p>일반 백상지에 미량 코팅을 한 후에 슈퍼카렌딩 처리를 하여 인쇄면성과 적정광택을 살린 종이입니다.무게가 가볍고 인쇄광택이 좋기때문에 잡지</p>
+                            <p>나 전단지, 카탈로그 등의 인쇄에 적합합니다.</p>
+                        </div>
+                        <div class="content_txt">
+                            <div class="oflow">
+                                <h5 class="fleft">뉴플러스</h5>
+                                <p class="content_quick fright"><a href="#">바로가기 ▶</a></p>
+                            </div>
+                            <p>뉴플러스는 백상지를 한 차원 업그레이드한 프리미엄 온머신 코트지로 기존 백상지 표면에 미량 도공하여 평활도가 높고, 불투명도와 면성이 우수</p>
+                            <p>하여 인쇄품질이 뛰어납니다.</p>
+                        </div>
+                        <div class="content_txt">
+                            <div class="oflow">
+                                <h5 class="fleft">교과서지</h5>
+                                <p class="content_quick fright"><a href="#">바로가기 ▶</a></p>
+                            </div>
+                            <p>가벼운 느낌과 함께 눈의 피로도를 경감시켜 장시간 공부를 해야하는 학생들에게 효과적으로 적근할 수 있는 교과서 전문 용지입니다.</p>
+                        </div>
+                        <div class="content_txt">
+                            <div class="oflow">
+                                <h5 class="fleft">뉴백상지</h5>
+                                <p class="content_quick fright"><a href="#">바로가기 ▶</a></p>
+                            </div>
+                            <p>뉴백상지는 인쇄면성이 좋고 표면강도가 우수하고 지분이 적어, 많은 고객들에게 사랑을 받고 있는 제품입니다.</p>
+                        </div>
+                        <div class="content_txt">
+                            <div class="oflow">
+                                <h5 class="fleft">뉴클래식</h5>
+                                <p class="content_quick fright"><a href="#">바로가기 ▶</a></p>
+                            </div>
+                            <p>뉴클래식은 눈부심이 적으며 백상지보다는 은은한 광택을 자랑하는 종이입니다. 기존 백상지와 대비하여 2% 이상 높은 불투명도를 자랑합니다.</p>
+                            <p>원료에서부터 불투명도가 좋은 펄프를 배합하여 생산하기 때문에 두께에 비해 불투명도가 뛰어납니다.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- footer section -->
+        <footer>
+            <div class="row oflow">
+                <div class="footer_logo fleft">
+                    <div class="footer_logo_top oflow">
+                        <div class="logo_point fleft">
+                            <span class="point blue_point"></span>
+                            <span class="point green_point"></span>
+                        </div>
+                        <div class="logo_txt fleft">
+                            <p>Hansol</p>
+                        </div>
+                    </div>
+                    <div class="footer_logo_bottom">
+                        <p>한솔제지</p>
+                    </div>
+                </div>
+                <div class="footer_address">
+                    <address>
+                        <p>서울 중구 을지로 100 (을지로2가) 파인애비뉴 B동 23~24층 Tel : 02-3287-7114 , Fax : 02-6031-0908</p>
+                        <p>Copyright 2015 Hansol., All rights Reserved.</p>
+                    </address>
+                </div>
+                <div class="select_btn fright">
+                    <div class="select_top">
+                        <select id="site">
+                            <option value="Family Site">Family Site</option>
+                            <option value="한솔그룹">한솔그룹</option>
+                            <option value="한솔PNS">한솔PNS</option>
+                            <option value="한솔홈데코">한솔홈데코</option>
+                            <option value="한솔테크닉스">한솔테크닉스</option>
+                            <option value="한솔케미칼">한솔케미칼</option>
+                            <option value="한솔EME">한솔EME</option>
+                            <option value="한솔로지스틱스">한솔로지스틱스</option>
+                            <option value="한솔인티큐브">한솔인티큐브</option>
+                            <option value="한솔Museum SAN">한솔Museum SAN</option>
+                            <option value="한솔페이퍼텍">한솔페이퍼텍</option>
+                        </select>
+                        <button>
+                            <span>Go</span>
+                        </button>
+                    </div>
+                    <div class="select_bottom">
+                        <p>열린구매 시스템</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
